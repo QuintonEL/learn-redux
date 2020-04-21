@@ -39,6 +39,7 @@ store.subscribe(() => console.log(store.getState()));
 
 //DISPATCH -> SET THAT ACTION
 store.dispatch(increment());
+store.dispatch(decrement());
 
 
 
