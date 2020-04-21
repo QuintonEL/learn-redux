@@ -7,3 +7,5 @@ const counterReducer = (state = 0, action) => {
     default:
   }
 }
+
+export default counterReducer;
